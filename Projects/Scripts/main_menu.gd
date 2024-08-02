@@ -4,7 +4,8 @@ extends Control
 @onready var window_options = $Buttons/Options/OptionsMenu/WindowOptions
 
 func _ready():
-	AudioPlayer._play_menu_music()
+	###AudioPlayer._play_menu_music()
+	pass
 
 func _input(_event):
 	if Input.is_action_just_pressed("F11") or (Input.is_action_pressed("Alt") and Input.is_action_pressed("Enter")):
