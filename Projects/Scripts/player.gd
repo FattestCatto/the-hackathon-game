@@ -2,8 +2,8 @@ extends CharacterBody2D
 class speed_class:
 	var x = 0
 	var y = 0
-	@export var loss = 2
-	@export var gain = 5
+	@export var loss = 10
+	@export var gain = 20
 	@export var jump_speed = 400
 	@export var maximum = 400
 
